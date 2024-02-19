@@ -1,0 +1,18 @@
+package belajar_class_method;
+
+public class ManagingPeople {
+  public static void main(String[] args) {
+    // Membuat dua objek Person
+    person p1 = new person("Arial", 37);
+    person p2 = new person("Joseph", 15);
+
+    // Membandingkan usia mereka
+    if (p1.getAge() == p2.getAge()) {
+      // Jika usia sama, cetak pesan ini
+      System.out.println(p1.getName() + " is the same age as " + p2.getName());
+    } else {
+      // Jika usia berbeda, cetak pesan ini
+      System.out.println(p1.getName() + " is NOT the same age as " + p2.getName());
+    }
+  }
+}
